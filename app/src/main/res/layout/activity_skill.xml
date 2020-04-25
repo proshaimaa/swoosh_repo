@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
         <ToggleButton
-            android:id="@+id/toggleButton"
+            android:id="@+id/beginnerBtn"
             android:layout_width="80dp"
             android:layout_height="50dp"
             android:layout_marginLeft="16dp"
@@ -65,13 +65,14 @@
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
+            android:onClick="onBeginnerSelected"
             android:text="@string/togglebutton"
             android:textColor="@android:color/white"
             android:textOff="@string/beginner"
             android:textOn="@string/beginner" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/ballerBtn"
             android:layout_width="80dp"
             android:layout_height="50dp"
             android:layout_marginLeft="16dp"
@@ -79,6 +80,7 @@
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
+            android:onClick="onBallerSelected"
             android:text="@string/togglebutton"
             android:textColor="@android:color/white"
             android:textOff="@string/baller"
@@ -94,6 +96,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
+        android:onClick="onFinishSelscted"
         android:text="@string/finish"
         android:textColor="@android:color/white"
         android:textSize="18sp"
