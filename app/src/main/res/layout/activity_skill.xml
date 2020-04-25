@@ -96,7 +96,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
-        android:onClick="onFinishSelscted"
+        android:onClick="onFinishSelected"
         android:text="@string/finish"
         android:textColor="@android:color/white"
         android:textSize="18sp"
