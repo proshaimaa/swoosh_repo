@@ -68,10 +68,7 @@
             android:textColor="#FFFFFF"
             android:textOff="@string/men"
             android:textOn="@string/men"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="28dp"
-            tools:layout_editor_absoluteY="195dp"
-            tools:ignore="OnClick" />
+            android:textSize="16sp" />
 
         <ToggleButton
             android:id="@+id/womenLeagueBtn"
@@ -87,10 +84,7 @@
             android:textColor="#FFFFFF"
             android:textOff="@string/women"
             android:textOn="@string/women"
-            android:textSize="16sp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="28dp"
-            tools:layout_editor_absoluteY="261dp" />
+            android:textSize="16sp"/>
 
         <ToggleButton
             android:id="@+id/coedLeagueBtn"
@@ -104,9 +98,7 @@
             android:textColor="#FFFFFF"
             android:textOff="@string/co_ed"
             android:textOn="@string/co_ed"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="28dp"
-            tools:layout_editor_absoluteY="331dp" />
+            android:textSize="16sp" />
 
 
     </LinearLayout>
