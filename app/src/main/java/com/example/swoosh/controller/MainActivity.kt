@@ -1,4 +1,4 @@
-package Controller
+package controller
 
 import android.content.Intent
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.example.swoosh.Model
+package com.example.swoosh.model
 
 import android.os.Parcel
 import android.os.Parcelable

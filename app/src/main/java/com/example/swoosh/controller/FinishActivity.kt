@@ -1,13 +1,16 @@
-package Controller
+package controller
 
-import Utilities.EXTRA_PLAYER
+import android.annotation.SuppressLint
+import utilities.EXTRA_PLAYER
 import android.os.Bundle
-import com.example.swoosh.Model.Player
+import com.example.swoosh.model.Player
 import com.example.swoosh.R
 import kotlinx.android.synthetic.main.activity_finish.*
 
+@Suppress("RECEIVER_NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class FinishActivity : BaseActivity() {
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finish)
